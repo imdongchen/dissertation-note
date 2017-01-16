@@ -1,6 +1,6 @@
 # CAnalytics usage overview
 
-Teams are free to choose any tools including CAnalytics they like. Since Team 93 and 105 were two-member teams and could possibly had different patterns, their log data was excluded from the analysis for now. Also, from the log, we find that Team 111 did not use much of CAnalytics, so their data was also excluded. In total, we analyzed the log data from 22 teams. 
+
 
 
 During the one week period in our log data between Oct 24 to Nov 2 2015, students created ...

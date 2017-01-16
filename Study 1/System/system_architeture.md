@@ -10,6 +10,7 @@ Maintaining state synchronicity is technically challenging for groupware develop
 We propose a state-centered approach to overcome the issue. As Figure ?? shows, an event manager takes control of all events, whether they are local or remote events. The event manager dispatches events to different event handlers and makes changes to a central state manager. Whenever the state changes, the state manager sends a signal to related UI components, and the components make their own change accordingly.
 
 <!-- TODO describe the event workflow; reuse of event? -->
+The event flow works in this way: an event is triggered by a user interaction; the event is sent to the Event Manager. On one hand, the event will change the data, which in turn changes the UI component. On the other hand, the event is passed to the Hisotry Manager. 
 
 ![CAnalytics system architecture](../system/img/architecture.jpg)
 

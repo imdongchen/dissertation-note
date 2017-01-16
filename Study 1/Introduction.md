@@ -1,0 +1,24 @@
+# Introduction
+
+Collaborative information analysis is a form of sensemaking wherein a team analyzes a complex information space of facts and relationships to identify and evaluate causal hypotheses. A common example of collaborative information analysis is crime investigation; a variety of putative facts are assembled, including financial records, witness observations and interviews, and social connections of various sorts among persons of interest, from which investigators collaboratively  assess means, motives, and opportunities, articulate and investigate further hypotheses and deductions, and develop one or more theories of the crime. Other examples include intelligence analysis, business intelligence, scientific research, and social constructivist learning.
+
+Information analysis consists of two major loops, according to the Pilolli and Card's model [@Pilolli2005]: the loop of information foraging, in which analysts collect and extract relevant information, and the loop of information analysis, in which analysts schematize information and develop hypotheses. However, tools supporting information analysis mostly address support for the latter loop, such as developing visualizations of a specific set of data. Data are often collected from external sources and are ready to be imported and visualized. Analysts are "passively" consuming the existing data. In complex information analysis tasks, however, analysts have no idea of which data is relevant. They have to determine how to frame the problem, and decide the knowledge slot that needs to be filled in to address the problem. As they collect more data, their framing of the problem may then change, motivating them to gather other data to close any gap. Thus information analysis is a process of iteratively framing and reframing the question, requiring dynamically including new data for analysis [@Stasko2008]. Badalamente and Greitzer [@Badalamente2005] reported top ten needs for intelligence analysis tools based on feedback from a workshop of intelligence analysis professionals, and one of them was 'dynamic data processing and visualization', which refers to the need to more interactively and dynamically explore information within visualization than a 'passive' interpretation of a predominantly display of data. It is imperative to understand how it works to integrate information collection and information analysis.
+
+<!-- FIXME: awareness definition -->
+A key enabler for effective collaboration is awareness, defined as "understanding collaborator's activity as context for one's own activity". Awareness support in computer-mediated collaboration has been a classic research topic in various tasks, for example, collaborative online editing, collaborative programming, collaborative map editing, and collaborative information seeking. One thing that makes collaborative information analysis more complex is that participants must work with more complex objects than in other tasks. While participants work on a shared identical object in most tasks (e.g. A shared article in collaborative editing, a shared code project in programming, a shared map in map editing, and a shared query result in information seeking), participants apply flexible layouts of various information artifacts. Thus simply sharing the screen or workspace no longer works. In addition to sharing information that is literally documented, participants must also be aware of collaborators' assumptions and hypotheses, which are often implicit but essential to ensure the team moves in the same direction. We adopt the concept of "activity awareness" to describe the complex awareness requirement, which encompasses a wider range of issues than other conceptions of awareness, including higher-level awareness issues. 
+
+An essential question for collaborative tool designers is awareness of *what*. The awareness information could be qualitatively different depending on the nature of task. 
+
+Participants in collaborative information analysis must be aware of information collected and shared by collaborators, 
+
+
+
+
+1. Interweaving information collection and information analysis
+2. Activity awareness support for team collaboration.
+3. Effect on intelligence analysis learning
+
+Martin [@Martin2014] highlighted the importance of enhancement of intelligence analysis training and education in the context of globalization characterized by an increasing degree of complexity and unprecedented acceleration of change, especially the need for incorporating innovative technology to transform exploding data into meaningful and actionable information.
+
+
+Most collaborative information analysis tools have only been tested in short-term lab studies (e.g. [@Goyal2014, @Goyal2016]). While such studies are fine to test specific hypotheses and to evaluate initial designs, they do not provide information about how teams are using the systems over longer periods of time.

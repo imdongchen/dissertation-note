@@ -6,4 +6,10 @@ The large number of results is partly caused by the general term of 'scenario'. 
 
 Meanwhile, due to the wide range of practitioners and researchers of SBD in the HCI area, we attempted to collect other papers that we might have overlooked by crowdsourcing. We sent out a survey in a popular HCI mail list inquiring people to report their papers about SBD and their use of SBD. However, not many people responded the survey. We got 9 papers.
 
+Themes of papers:
+- Object of analysis; that is, focusing on the method of scenario-based design per se
+- Design method, applying SBD to support design and involve end users
+- Tools to help implement SBD; facilities to help researchers to conduct SBD
+- 
+
 [^1]: http://www.hcibib.org

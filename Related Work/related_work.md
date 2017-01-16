@@ -1,3 +1,5 @@
+@Mahyar2014 studied support of record keeping in collocates collaborative sensemaking. Her dissertation might be a good template.  
+
 1. Darren Gergle, Robert E Kraut, and Susan R Fussell. 2013. Using Visual Information for Grounding and Awareness in Collaborative Tasks. Human-Computer Interaction 28, June 2013: 1–39. http://doi.org/10.1080/07370024.2012.678246
 
 Gergle, Kraut and Fussell used lab experiments to prove that shared visual information improved situation awareness and conversational grounding, respectively.
