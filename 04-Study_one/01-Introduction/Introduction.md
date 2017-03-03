@@ -1,14 +1,75 @@
 # Introduction
 
-Collaborative information analysis is a form of sensemaking wherein a team analyzes a complex information space of facts and relationships to identify and evaluate causal hypotheses. A common example of collaborative information analysis is crime investigation; a variety of putative facts are assembled, including financial records, witness observations and interviews, and social connections of various sorts among persons of interest, from which investigators collaboratively  assess means, motives, and opportunities, articulate and investigate further hypotheses and deductions, and develop one or more theories of the crime. Other examples include intelligence analysis, business intelligence, scientific research, and social constructivist learning.
+Collaborative information analysis is a form of sensemaking wherein a team
+analyzes a complex information space of facts and relationships to identify and
+evaluate causal hypotheses. A common example of collaborative information
+analysis is crime investigation; a variety of putative facts are assembled,
+including financial records, witness observations and interviews, and social
+connections of various sorts among persons of interest, from which investigators
+collaboratively  assess means, motives, and opportunities, articulate and
+investigate further hypotheses and deductions, and develop one or more theories
+of the crime. Other examples include intelligence analysis, business
+intelligence, scientific research, and social constructivist learning.
 
+A critical challenge for information analysts is building an adequate
+preliminary data model from textual documents, and insuring that the data model
+is employed effectively in hypothesis development and evaluation. This is an
+open challenge [@Badalamente2005]. Standard methods often do not support it at
+all; for example, Analysis of Competing Hypotheses (ACH) assumes that data has
+been modeled, and that relevant evidence can be adduced appropriately to various
+hypotheses, but provides no structured support for either. Other techniques,
+such as Information Extraction and Weighting (IEW), help structure modeling of
+evidence, but do not extend utilization of evidence to hypothesis generation. We
+therefore are motivated to develop an integrated workspace in which analysts can
+model and analyze data in one place, and investigate how that will affect
+analytic process.
 
-A critical challenge for information analysts is building an adequate preliminary data model from textual documents, and insuring that the data model is employed effectively in hypothesis development and evaluation. This is an open challenge [@Badalamente2005]. Standard methods often do not support it at all; for example, Analysis of Competing Hypotheses (ACH) assumes that data has been modeled, and that relevant evidence can be adduced appropriately to various hypotheses, but provides no structured support for either. Other techniques, such as Information Extraction and Weighting (IEW), help structure modeling of evidence, but do not extend utilization of evidence to hypothesis generation. We therefore are motivated to develop an integrated workspace in which analysts can model and analyze data in one place, and investigate how that will affect analytic process.
+Any work of information analysis at a non-trivial scale is fundamentally
+collaborative. A key enabler for effective collaboration is *activity
+awareness*, defined as team's awareness of its own sustained collaborative
+activity [@Carroll2006]. Derived from Activity Theory, activity awareness
+transcends synchronous awareness of who collaborators are, where a collaborator
+is looking, etc. It encompasses issues of many different kinds of information
+covering all aspects of an activity, such as events, tasks, goals, mediating
+artifacts, social interactions, and group values and norms, which becomes higher
+demanding as the activity becomes more complicated. Awareness support in such a
+complex activity of information analysis is perhaps also more challenging than
+many other situations (e.g. collaborative writing). Teammates could be working
+with much more complex data structure (e.g. spatial data, temporal data, and
+relational data, as opposed to only text), coordinating through multiple
+analytic artifacts (e.g. map, timeline, network, as opposed to only a document),
+and making sense of different levels of analysis, assumptions, and hypotheses,
+both synchronously and asynchronously throughout a long-term course of
+collaborative interaction. Hence we will investigate how technology can mediate
+team collaboration in a complex analytic task over extended period of time.
 
-Any work of information analysis at a non-trivial scale is fundamentally collaborative. A key enabler for effective collaboration is *activity awareness*, defined as team's awareness of its own sustained collaborative activity [@Carroll2006]. Derived from Activity Theory, activity awareness transcends synchronous awareness of who collaborators are, where a collaborator is looking, etc. It encompasses issues of many different kinds of information covering all aspects of an activity, such as events, tasks, goals, mediating artifacts, social interactions, and group values and norms, which becomes higher demanding as the activity becomes more complicated. Awareness support in such a complex activity of information analysis is perhaps also more challenging than many other situations (e.g. collaborative writing). Teammates could be working with much more complex data structure (e.g. spatial data, temporal data, and relational data, as opposed to only text), coordinating through multiple analytic artifacts (e.g. map, timeline, network, as opposed to only a document), and making sense of different levels of analysis, assumptions, and hypotheses, both synchronously and asynchronously throughout a long-term course of collaborative interaction. Hence we will investigate how technology can mediate team collaboration in a complex analytic task over extended period of time.
+We situate our study in classroom learning of information analysis. Classroom
+study provides a natural environment in which participants engage in long term,
+complex class projects. Due to difficulty in accessing professional analysts or
+having them in long term design loops, analysts in training who are learning to
+be information analysts are a good compromise [@Kang2011]. They already have
+some knowledge and experience with state-of-the-art analytic techniques and
+tools. In class projects students are graded on their ability to understand and
+enact professional practices of information analysis. This strong normative
+emphasis on problem solving practices is a great evaluation context for new
+interactive tools: Tools are only valuable to the students insofar as they
+actually support better practices and better outcomes.
 
-We situate our study in classroom learning of information analysis. Classroom study provides a natural environment in which participants engage in long term, complex class projects. Due to difficulty in accessing professional analysts or having them in long term design loops, analysts in training who are learning to be information analysts are a good compromise [@Kang2011]. They already have some knowledge and experience with state-of-the-art analytic techniques and tools. In class projects students are graded on their ability to understand and enact professional practices of information analysis. This strong normative emphasis on problem solving practices is a great evaluation context for new interactive tools: Tools are only valuable to the students insofar as they actually support better practices and better outcomes.
+<!-- The study also provides us an opportunity to examine learning experience
+with collaborative tools in education of information analytics. Learning
+information analytics is challenging because it requires students to not only
+get familiar with analytic techniques but also to be able to apply them in an
+effective manner. Research has called for enhancement of information analysis
+training and education in the context of globalization characterized by an
+increasing degree of complexity and unprecedented acceleration of change,
+especially the need for incorporating innovative technology to transform
+exploding data into meaningful and actionable information [@Martin2014]. -->
 
-<!-- The study also provides us an opportunity to examine learning experience with collaborative tools in education of information analytics. Learning information analytics is challenging because it requires students to not only get familiar with analytic techniques but also to be able to apply them in an effective manner. Research has called for enhancement of information analysis training and education in the context of globalization characterized by an increasing degree of complexity and unprecedented acceleration of change, especially the need for incorporating innovative technology to transform exploding data into meaningful and actionable information [@Martin2014]. -->
-
-We thus are motivated to investigate the feasibility, effectiveness and consequence of supporting integrated data modeling and analysis, as well as supporting activity awareness in complex information analysis, in the context of classroom study. We have developed a tool that includes annotation for data modeling, interactive visualization for data analysis, and a set of awareness features. For the balance of this paper, we describe the tool we have developed, the classroom settings, and our observations. We conclude with design implications derived from the study as well as future work.
+We thus are motivated to investigate the feasibility, effectiveness and
+consequence of supporting integrated data modeling and analysis, as well as
+supporting activity awareness in complex information analysis, in the context of
+classroom study. We have developed a tool that includes annotation for data
+modeling, interactive visualization for data analysis, and a set of awareness
+features. For the balance of this paper, we describe the tool we have developed,
+the classroom settings, and our observations. We conclude with design
+implications derived from the study as well as future work.
