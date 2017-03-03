@@ -11,14 +11,7 @@ We first report descriptive data about usage and use experience of CAnalytics. W
 Overview of the survey items indicates that students rated positive on CAnalytics overall, as shown in Figure [@fig:survey]. CAnalytics were ranked favorably in all aspects except cognitive load. They had a close to neutral feeling towards cognitive load, which suggests that the task is still cognitive heavy.
 
 <!-- questionnaire -->
-Students reported enjoying the use of CAnalytics. Specifically, being able to see teammates contributing simultaneously that being aware that teammates were contributing motivated themselves to contribute.
 
->  the notifications every time you saw someone annotated something kept you peace at mind that your teammates are also working efficiently on this project. (U64)
-
->  During class I wasn’t sure if my teammates were doing work for that class or another thing but then seeing their dot switch between applications on the software and updates pop up on my screen I knew they were doing work for 231. (U141)
-
-
-> The fact that you can see what other teammates are doing and they can see what you are doing creates a sense of accountability in terms of separating the work load. (User 51)
 
 ## Behavior of data modeling and data analysis
 
@@ -39,9 +32,6 @@ While many causes might account for the different network views, we attempt to i
 
 On the contrary, some other teams overlaid facts and inferences in the same artifact. Both facts and inferences drove the layout of the network, thus influencing team's framing of the problem. Most teams made evaluation of the uncertainty of inferences when adding them to the network. This strategy was relatively more interactive among teammates: they needed to negotiate, evaluate, and reach consensus on the value and validity of every inference. To some extent teams might forget whether a relationship is factual or inferred, and ask whether conclusion derived from the visualization can be trusted under uncertainty.
 
-
-
-
 From granularity of entities, We noted a distinction between accretion and filtering strategies in data modeling, similar to what we observed in the paper prototype study. Filtering is selectively modeling of data and adding to an artifact. Users must decide what information is relevant, and thus what is to be excluded, as well as what granularity of information is to model. Filtering requires more team coordination, because teammates must reach a common ground of the current problem as well as information needed to answer the problem. Figure [@fig:network]a is an example of filtering, highlighting only the key information of each robbery and how robberies are connected.
 
 Accretion is an attempt to comprehensively represent the problem by adding all information to an artifact. Users extract every fact from the document, regardless of its immediate relevance to the problem. Accretion costs less coordination as it is relatively mechanical note taking. A disadvantage of accretion is that it could be time consuming to model all details and the produced artifact could be fairly complex. An example is Team 108, who modeled every step the suspects took, which resulted in many more entities than the average and much more cluttered network view (Figure [@fig:network]d). Users reported that they spent too much time in details that they lost the bigger picture:
@@ -61,9 +51,7 @@ Why did this happen? We guess both the context of classroom study and the system
 
 ## Collaboration and awareness
 
-Participants rated positively of the collaborative support. One participant thought of CAnalytics as a combination of Analyst's Notebook and Google Doc. made an analogy to Google Doc. Similar to being able to collaborate on text editing in Google Doc, they were able to collaboratively work with more complex data structure. Participants could contribute simultaneously without getting blocked.
-
-> CAnalytics seemed like the beta-version of an analyst’s notebook that multiple people could work on at once...It was like having an analyst’s version of a google doc... [Previously] all of us could not edit a single document at the same time. With CAnalytics, we were all able to work on everything at once with ease
+Participants rated positively of the collaborative support. Participants compared CAnalytics with state-of-the-art tools such as Analyst’s Notebook and PARC ACH. They liked the awareness features built on top of the analytic capabilities and described it as *“an analysts notebook that multiple people could work on at once...[and] an analysts version of a Google Doc.”*
 
 Participants reported that they could easily integrate team efforts.
 
@@ -83,6 +71,16 @@ correct mistake
 feedback / work in the right direction -->
 
 By analyzing the interaction, we also found indicators of high awareness. For example, we measured the number of entities accessed by collaborators versus by the author only, and the time lapse when the entity was first accessed by collaborator since created. While data generated by users is automatically shared, it is up to collaborators to choose to read the shared information or ignore information altogether. A high awareness team would keep updated with collaborators' generated information and read information soon after it is shared; whereas a low awareness team might experience a significant delay or even never access it. We found that most teams shared a high proportion of entities (mean=77.6%). We found that in average, 77.6% of the created entities were accessed by at least one teammate
+
+Students reported enjoying the use of CAnalytics. Specifically, being able to see teammates contributing simultaneously that being aware that teammates were contributing motivated themselves to contribute.
+
+>  the notifications every time you saw someone annotated something kept you peace at mind that your teammates are also working efficiently on this project. (U64)
+
+>  During class I wasn’t sure if my teammates were doing work for that class or another thing but then seeing their dot switch between applications on the software and updates pop up on my screen I knew they were doing work for 231. (U141)
+
+
+> The fact that you can see what other teammates are doing and they can see what you are doing creates a sense of accountability in terms of separating the work load. (User 51)
+
 
 <!-- breakdown -->
 One major critique is the lack of sharing of intermediate analytic insight for close collaboration. When individuals are exploring visualizations (e.g. zoom, filter, pan, drag, highlight), an insight pops up with a specific visualization state. Students complaint that they could not easily communicate that insight together with the associate views to the team. The team could "be looking at the same information but arranged in completely different ways" (P131). Unable to share immediate insights in the graphic context seems to make communication out of context.
