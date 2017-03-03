@@ -52,8 +52,8 @@ The transition matrix shows the number of transitions for each combination of ac
 
 
 These papers are cited as relevant to log analysis
-1. [2] E. Agichtein, E. Brill, and S. Dumais. Improving web search ranking by incorporating user behavior information. In Proceedings of the 29th an- nual international ACM SIGIR conference on Research and development in information retrieval, pages 19–26. ACM, 2006
-1. [3] R. Amar, J. Eagan, and J. Stasko. Low-level components of analytic activity in information visualization. In Information Visualization, 2005. INFOVIS 2005. IEEE Symposium on, pages 111–117. IEEE, 2005.
+~1. [2] E. Agichtein, E. Brill, and S. Dumais. Improving web search ranking by incorporating user behavior information. In Proceedings of the 29th an- nual international ACM SIGIR conference on Research and development in information retrieval, pages 19–26. ACM, 2006~
+~1. [3] R. Amar, J. Eagan, and J. Stasko. Low-level components of analytic activity in information visualization. In Information Visualization, 2005. INFOVIS 2005. IEEE Symposium on, pages 111–117. IEEE, 2005.~
 1. [4] I. Boyandin, E. Bertini, and D. Lalanne. A qualitative study on the ex- ploration of temporal changes in flow maps with animation and small- multiples. In Computer Graphics Forum, volume 31, pages 1005–1014. Wiley Online Library, 2012.
 ~~1. [5] E. T. Brown, A. Ottley, H. Zhao, Q. Lin, R. Souvenir, A. Endert, and R. Chang. Finding waldo: Learning about users from their interactions. Visualization and Computer Graphics, IEEE Transactions on, 20(12):1663–1672,~~
 1. [7] E. H. Chi, P. Pirolli, K. Chen, and J. Pitkow. Using information scent to model user information needs and actions and the web. In Proceedings of the SIGCHI conference on Human factors in computing systems, pages 490–497. ACM, 2001.

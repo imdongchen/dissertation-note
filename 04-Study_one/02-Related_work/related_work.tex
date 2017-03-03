@@ -1,0 +1,108 @@
+\documentclass[]{article}
+\usepackage{lmodern}
+\usepackage{amssymb,amsmath}
+\usepackage{ifxetex,ifluatex}
+\usepackage{fixltx2e} % provides \textsubscript
+\ifnum 0\ifxetex 1\fi\ifluatex 1\fi=0 % if pdftex
+  \usepackage[T1]{fontenc}
+  \usepackage[utf8]{inputenc}
+\else % if luatex or xelatex
+  \ifxetex
+    \usepackage{mathspec}
+  \else
+    \usepackage{fontspec}
+  \fi
+  \defaultfontfeatures{Ligatures=TeX,Scale=MatchLowercase}
+\fi
+% use upquote if available, for straight quotes in verbatim environments
+\IfFileExists{upquote.sty}{\usepackage{upquote}}{}
+% use microtype if available
+\IfFileExists{microtype.sty}{%
+\usepackage{microtype}
+\UseMicrotypeSet[protrusion]{basicmath} % disable protrusion for tt fonts
+}{}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{
+            pdfborder={0 0 0},
+            breaklinks=true}
+\urlstyle{same}  % don't use monospace font for urls
+\usepackage[]{biblatex}
+\addbibresource{../../Bibliography/Dissertation.bib}
+\IfFileExists{parskip.sty}{%
+\usepackage{parskip}
+}{% else
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{6pt plus 2pt minus 1pt}
+}
+\setlength{\emergencystretch}{3em}  % prevent overfull lines
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\setcounter{secnumdepth}{0}
+% Redefines (sub)paragraphs to behave more like sections
+\ifx\paragraph\undefined\else
+\let\oldparagraph\paragraph
+\renewcommand{\paragraph}[1]{\oldparagraph{#1}\mbox{}}
+\fi
+\ifx\subparagraph\undefined\else
+\let\oldsubparagraph\subparagraph
+\renewcommand{\subparagraph}[1]{\oldsubparagraph{#1}\mbox{}}
+\fi
+
+% set default figure placement to htbp
+\makeatletter
+\def\fps@figure{htbp}
+\makeatother
+
+
+\date{}
+
+\begin{document}
+
+\section{Related work}\label{related-work}
+
+Many researches have been conducted to investigate design features and
+tools to support collaborative information analysis. For example, Goyal
+and Fussell \autocite{Goyal2016} studied the effect of hypotheses
+sharing on sensemaking. Mahyar and Tory \autocite{Mahyar2013} designed a
+visualization to connect collaborators' common findings and evaluated
+its support for team performance. Hajizadeh et al.
+\autocite{Hajizadeh2013} explored how sharing teammate's interactions
+affects awareness. These studies report interesting result of controlled
+lab studies to validate hypotheses of specific design features. However,
+they do not provide insight on how teams would collaborate in the real
+world over extended period of time.
+
+Several field studies were conducted aimed to understand design
+requirements of collaborative information analysis in more realistic
+setting. Chin et al. \autocite{Chin2009} observed and analyzed the
+analytic strategies, work practices, tools ad collaboration norms of
+professional intelligence analysts. Kang and Stasko \autocite{Kang2011}
+studied how student analysts, as in our study, completed in-class
+intelligence projects. Carroll et al. \autocite{Carroll2013} attempted
+to model a complex analytic task scenario in a lab setting, and examined
+the development of team awareness in a four-hour-long task. These
+studies helped improve understanding of current work practice with
+commercial tools or no supporting tools at all. However, it remains
+unknown how teams would behave with technology that is explicitly
+designed for collaborative information analysis.
+
+Before the study with our tool, we observed how teams of students
+accomplished a course project in the class. Students practiced applying
+IEW to extract and model data from documents. They then replicated key
+facts into analytic artifacts such as an ACH Matrix in PARC ACH, a
+timeline and a network graph in Analyst's Notebook. However, these tools
+lack serious collaboration support. Analysts were unable to contribute
+simultaneously. The analysis work was often divided by tools: each
+individual created and analyzed an artifact with a tool on their own.
+This had the consequence that findings and hypotheses be made without
+integrating collective efforts and diverse knowledge. Analysts must
+coordinate work by manually sharing notebooks or graphs, resulting in a
+scattered placement of results, requiring repeated manual
+resynchronizing to identify redundant or missing pieces of information,
+analysis of information, and analytic hypotheses. The instructor and
+students in our study were aware of the shortcomings of available tools
+with respect to support of collaboration.
+
+\printbibliography
+
+\end{document}
