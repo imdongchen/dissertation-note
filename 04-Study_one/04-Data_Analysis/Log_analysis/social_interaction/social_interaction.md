@@ -44,3 +44,10 @@ We look at the proportion of entities that were accessed by at least one collabo
 ![Entities immediately accessed by at least one collaborator](./entities_immediately_accessed_by_2.jpg)
 
 ![Immediate access time lapse](./immediate_access_time_lapse.jpg)
+
+
+The figure [@fig:access_time] shows the proportion of entities accessed as a function of time. 36.5% of entities were accessed within 75 minutes (a class session). 7% of the entities were accessed within 1 min since there were created. 24% of the entities were accessed within 10 min.
+
+We found that most entities were not "immediately" accessed; i.e. seconds after an entity was created. This meant that when seeing a notification, participants did not just stop and check the new entity. This also to some extent confirms that participants did not find the awareness features distracting as reflected from the survey. While most entities were accessed, participants only accessed them when necessary. 
+
+![Entity access time](./entity_access_time.jpg){#fig:access_time}

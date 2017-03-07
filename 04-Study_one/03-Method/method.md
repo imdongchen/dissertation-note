@@ -69,3 +69,5 @@ For example, whether they captured that Case 3 and Case 5 is much likely to be
 committed by the same group of robbers; whether they captured that a ``copycat''
 in Case 6? The team get one point when they discussed that hypothesis, and get
 one point when they provide reasonable evidence. -->
+
+![Classroom setting](./classroom_setting.jpg){#fig:classroom}

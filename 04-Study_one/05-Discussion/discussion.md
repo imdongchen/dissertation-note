@@ -5,7 +5,7 @@
 The goal of the study is to explore design opportunities to support
 collaborative information analysis by evaluating tool usage in a natural
 environment over extended period of time. This is to complement research that
-only tests tools in short term lab studies (e.g. e.g. [@Convertino2012;
+only tests tools in short term lab studies (e.g. e.g. [@Convertino2011;
 @Goyal2016]). Due to the constraint of time (usually about one hour), these
 studies had to employ a simplified task with significantly reduced content and
 complexity. Teams would then not create complex information artifacts and had
