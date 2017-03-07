@@ -35,17 +35,19 @@ with an accretion strategy by annotating all entities. Later they discovered
 that this strategy brought too much noise instead of useful information, and
 decided to clean out irrelevant entities (filtering strategy). Such change
 occurs as a consequence of increased awareness of team functions and tool
-capabilities, which takes time to develop. 2. Participants in this study are
-being trained to be professional analysts. Before our study they had already
-been introduced to the information analysis techniques and indeed to the
-state-of-the-art tools that support this task. In the study, participants often
-compared CAnalytics to those tools, as well as teamwork with CAnalytics to
-experience with those tools. Therefore their feedback is likely to provide
-deeper insight into strength and weakness of CAnalytics.
+capabilities, which takes time to develop.
+
+2. Participants in this study are being trained to be professional analysts.
+Before our study they had already been introduced to the information analysis
+techniques and indeed to the state-of-the-art tools that support this task. In
+the study, participants often compared CAnalytics to those tools, as well as
+teamwork with CAnalytics to experience with those tools. Therefore their
+feedback is likely to provide deeper insight into strength and weakness of
+CAnalytics. We also purposefully formed three-person teams as opposed to dyads because a three-person team would perform more interesting social interactions and possible problems, such as cognitive specialization [@Borge2014], social loafing [@Karau1993], and hidden profile [@Stasser2003b].
 
 Yet classroom study also has limits. For example, many factors and variables
 could exist that affect team performance. The fact that these factors are often
-impossible to model or control adds to the difficulty in data analysis. Also,
+impossible to model or control adds to the difficulty in data analysis (e.g. identifying performance correlated factors with linear regression). Also,
 data collection is challenging because team interactions are not always
 accessible. Teams can choose to work synchronously or asynchronously, and it is
 difficult to predict when or where the interaction of most interest is to occur.
@@ -108,6 +110,8 @@ to the task goal, can motivate teammates to contribute in the same direction,
 and can remind teammates to pull you back when it deviates from the team goal
 (e.g. when one user created too many low-level entities in Team 108)
 
+A possible design solution to a cluttered display when the number of entities increases is to enable collapsible data views. Indeed we found analysts often engaged in multi-level analysis in parallel, frequently coordinating between, say, confirmation of a location, to associating sequence of actions, to comparing two groups of evidence, to overviewing robberies as a whole. A collapsible view can help analysts focus attention on a certain level of details, and when in collaboration, draw teammate's attention to the specific item in your intention.
+
 One major critic was the lack of view sharing support in the tool. In addition
 to data sharing, we find that views of data should become shareable resources as
 well. With the identical data pool, analysts often have different views of data.
@@ -153,4 +157,4 @@ interaction logs are already captured (for team awareness and research purpose
 only now), and could be streamed to the instructor for performance monitoring.
 The process data provides the instructor a new window to assess students'
 performance and to provide intervention when necessary, as suggested by learning
-analytics techniques [@Siemens2011]. 
+analytics techniques [@Siemens2011].

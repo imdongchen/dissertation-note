@@ -1,10 +1,5 @@
 # Result
 
-We first report descriptive data about usage and use experience of CAnalytics.
-We then report details on the aspects of team behavior and awareness, through
-methods of artifact analysis, log analysis, and qualitative analysis of the
-questionnaire.
-
 ## Usage overview
 
  Over the week, teams created 1805 entities and 1529 relationships in total. The
@@ -13,14 +8,14 @@ questionnaire.
  variety of modeled data was related to team strategy, which will be detailed
  later.
 
-![Survey responses (box shows Q1-Q3 and median; whiskers show maximum and
-minimum)](./survey/survey_boxchart.jpg){#fig:survey}
-
 Overview of the survey items indicates that students rated positive on
 CAnalytics overall, as shown in Figure [@fig:survey]. CAnalytics were ranked
 favorably in all aspects except cognitive load. They had a close to neutral
 feeling towards cognitive load, which suggests that the task is still cognitive
 heavy.
+
+![Survey responses (box shows Q1-Q3 and median; whiskers show maximum and
+minimum)](./survey/survey_boxchart.jpg){#fig:survey}
 
 <!-- questionnaire -->
 
@@ -30,13 +25,13 @@ heavy.
 
 We examined the pattern of data modeling and data analysis by looking at a
 visualization of the entire interaction log (e.g. Figure [@fig:sequence] shows
-the interaction log of one team). All teams started with data modeling as they
-got themselves familiar with the documents. However, teams did not wait to start
+the interaction log of one team). Teams started with data modeling as they got
+themselves familiar with the documents. However, teams did not wait to start
 analysis till they finished data modeling; instead, the activity of data
-modeling and data analysis were intertwined. Participants switched from one
-activity to the other activity frequently. This is also demonstrated in the
-state transition diagram [@fig:transition], in which we encode the number of
-switches into width of the link.
+modeling and data analysis were highly intertwined after certain point.
+Participants switched from one activity to the other activity frequently. The
+state transition diagram [@fig:transition] better demonstrates the transition
+between states, in which we encode the number of switches as width of the link.
 
 ![Visualization of interaction logs of Team 107. Each row of colored marks
 indicates the sequence of top level activities a participant
@@ -45,21 +40,27 @@ performed.](./Log_analysis/action_sequence_vis/G107.png){#fig:sequence}
 ![State transition diagram of interaction logs of Team 107. Each node is an
 activity, whose size represents the time spent on the it; a link represents a
 switch from one activity to another, whose width encodes the number of
-switches.](./Log_analysis/action_sequence_vis/G107.png){#fig:sequence}
+switches.](./Log_analysis/state_transition/activity_transition-G107.png){#fig:transition}
 
-<!-- artifact analysis --> To look at the consequence of intertwined data
-modeling and data analysis, we examined the analytic product teams created, the
-network graph in particular because social relationships played the most
-critical role in this specific case and teams spent most time on network
-analysis (as reflected from the log). We found the network views fell into one
-of two categories: the networks consisted of 1) separate clusters, or 2)
-connected clusters. For example, the network in Figure [@fig:network]b consists
-of separate clusters. Networks from 8 teams (36%, mean performance=7.8) fall
-into this category. Nodes within a cluster are connected, representing
-information space of a robbery case. Nodes between clusters are nonetheless not
-connected. However, these teams did not just claim that no relationship existed
-between robberies; instead, we found that they documented possible relationships
-between robberies in the notepad tool.
+<!-- artifact analysis -->
+
+![User created network graphs. a) Exemplar network with filtering strategy; b)
+network with accretion strategy; c) network consisting of separate clusters; d)
+network consisting of connected
+clusters](./artifact_analysis/exemplar_artifacts.jpg){#fig:network}
+
+To look at the consequence of intertwined data modeling and data analysis, we
+examined the analytic product teams created, the network graph in particular
+because social relationships played the most critical role in this specific
+scenario and teams spent most time on network analysis (as reflected from the
+log). We found the network views fell into one of two categories: the networks
+consisted of 1) separate clusters, or 2) connected clusters. For example,
+networks from 8 teams (36%, mean performance=7.8) consist of separate clusters
+(Figure [@fig:network]b). Nodes within a cluster are connected, representing
+information space of a robbery case; Nodes between clusters are nonetheless not
+connected, indicating each robbery is a self-contained case. However, these
+teams still claimed connections between robberies in their
+report. Where did they externalize these connections? Or did the teams simply share orally and held them in mind? It turns out that teams documented possible relationships between robberies in the notepad tool.
 
 In contrast, 6 other teams (27%, mean performance=8.3) created networks composed
 of connected clusters. While a cluster is still a representation of a robbery,
@@ -173,7 +174,7 @@ The awareness features were received well. In the survey 88% of the students
 rated positively on their group awareness. When asked what features helped them
 stay aware of team activities, 28 participants mentioned the tool coordinator,
 24 mentioned the notification system, 19 mentioned the history tool, 14
-mentioned the real-time update of user-generated data， 12 mentioned the
+mentioned the real-time update of user-generated data, 12 mentioned the
 collaborative editor, and 7 mentioned the message tool. While the number of
 mentions does not simply indicate tool usefulness, it suggests users appropriate
 these features and were explicitly aware of their support.
@@ -183,9 +184,10 @@ these features and were explicitly aware of their support.
 We categorized students' feedback based on the element of awareness, or the
 essential problem of awareness of *what* [@Schmidt2002], into social awareness,
 information awareness, action awareness, history awareness, and intention
-awareness, as shown in Table XX.
+awareness, as shown in Table [@tab:awareness].
 
 <!-- Awareness table in ./awareness.xlsx -->
+![Awareness aspects reported by participants](./questionnaire/awareness.png){#tab:awareness}
 
 <!-- integrate work / handoff correct mistake feedback / work in the right
 direction -->
@@ -200,7 +202,7 @@ collaborators' generated information and read information soon after it is
 shared; whereas a low awareness team might experience a significant delay or
 even never access it. We found that most teams shared a high proportion of
 entities (mean=77.6%). We found that in average, 77.6% of the created entities
-were accessed by at least one teammate
+were accessed by at least one teammate.
 
 Students reported enjoying the use of CAnalytics. Specifically, being able to
 see teammates contributing simultaneously that being aware that teammates were
@@ -211,7 +213,7 @@ peace at mind that your teammates are also working efficiently on this project.
 (U64)
 
 >  During class I wasn’t sure if my teammates were doing work for that class or
-another thing but then seeing their dot switch between applications on the
+another thing but then seeing their dot [tool indicator] switch between applications on the
 software and updates pop up on my screen I knew they were doing work for 231.
 (U141)
 
@@ -219,11 +221,15 @@ software and updates pop up on my screen I knew they were doing work for 231.
 you are doing creates a sense of accountability in terms of separating the work
 load. (User 51)
 
-<!-- breakdown --> One major critique is the lack of sharing of intermediate
+<!-- breakdown -->
+
+One major critique is the lack of sharing of intermediate
 analytic insight for close collaboration. When individuals are exploring
 visualizations (e.g. zoom, filter, pan, drag, highlight), an insight pops up
 with a specific visualization state. Students complaint that they could not
 easily communicate that insight together with the associate views to the team.
 The team could "be looking at the same information but arranged in completely
 different ways" (P131). Unable to share immediate insights in the graphic
-context seems to make communication out of context. 
+context seems to make communication out of context.
+
+<!-- conflict -->

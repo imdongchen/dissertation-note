@@ -46,18 +46,21 @@ indicating that participants in our study had relatively advanced experience and
 knowledge in intelligence analysis. Participants' age ranged from 19 to 28 (20.3
 in average). 77% of the participants were male.
 
-<!-- TODO: add reference to measures --> We employed several data collection
-approaches. We administrated a post-study questionnaire, which included several
-7-index questions measuring individual's self-reported awareness (adapted from
-[@Convertino2011]), team communication (adapted from [@Convertino2011]),
-collective efficacy (adapted from [@Convertino2011]), perceived performance
-(adapted from [@Goyal2014]), and cognitive load [@Hart1988]. The questionnaire
-also included open-ended questions asking how the tool helped or impeded their
-work. We captured user interactions with system logs. Instead of simply logging
-low-level events like mouse click and keyboard strokes, we recorded actions such
-as making an annotation and deleting an entity. Finally, we reviewed team
-reports and graded them as an indicator of team performance. We designed an
-assessment rubric together with the course instructor.
+<!-- TODO: add reference to measures -->
+
+We employed several data collection approaches. We administrated a post-study
+questionnaire, which included several 7-index questions measuring individual's
+self-reported awareness (adapted from [@Convertino2011]), team communication
+(adapted from [@Convertino2011]), collective efficacy (adapted from
+[@Convertino2011]), perceived performance (adapted from [@Goyal2014]), and
+cognitive load [@Hart1988]. The questionnaire also included open-ended questions
+asking how the tool helped or impeded their work. We captured user interactions
+with system logs. Instead of simply logging low-level events like mouse click
+and keyboard strokes, we recorded actions such as making an annotation and
+deleting an entity. Finally, we reviewed team reports and graded them as an
+indicator of team performance. We designed an assessment rubric together with
+the course instructor. In analysis of the result, we utilized artifact
+analysis, log analysis, and qualitative analysis of the questionnaire.
 
 <!-- Although there is no single answer to the task problem, there exist several
 pieces of key evidence that suggest links across different robbery cases.
@@ -65,4 +68,4 @@ Together with the course instructor (also the creator of the project task), we
 For example, whether they captured that Case 3 and Case 5 is much likely to be
 committed by the same group of robbers; whether they captured that a ``copycat''
 in Case 6? The team get one point when they discussed that hypothesis, and get
-one point when they provide reasonable evidence. --> 
+one point when they provide reasonable evidence. -->
