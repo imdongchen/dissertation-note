@@ -67,6 +67,43 @@
 
 \begin{document}
 
+% pandoc-xnos: macro to create a caption without a prefix
+\makeatletter
+\long\def\@makenoprefixcaption#1#2{
+  \vskip\abovecaptionskip
+  \sbox\@tempboxa{#2}
+  \ifdim \wd\@tempboxa >\hsize
+    #2\par
+  \else
+    \global \@minipagefalse
+    \hb@xt@\hsize{\hfil\box\@tempboxa\hfil}
+  \fi
+  \vskip\belowcaptionskip}
+\makeatother
+
+% pandoc-fignos: save original macros
+\makeatletter
+\let\@oldmakecaption=\@makecaption
+\let\oldthefigure=\thefigure
+\let\oldtheHfigure=\theHfigure
+\makeatother
+
+% pandoc-fignos: environment disables figure caption prefixes
+\makeatletter
+\newcounter{figno}
+\newenvironment{no-prefix-figure-caption}{
+  \let\@makecaption=\@makenoprefixcaption
+  \renewcommand\thefigure{x.\thefigno}
+  \renewcommand\theHfigure{x.\thefigno}
+  \stepcounter{figno}
+}{
+  \let\thefigure=\oldthefigure
+  \let\theHfigure=\oldtheHfigure
+  \let\@makecaption=\@oldmakecaption
+  \addtocounter{figure}{-1}
+}
+\makeatother
+
 \section{Result}\label{result}
 
 \subsection{Usage overview}\label{usage-overview}
@@ -87,7 +124,7 @@ task is still cognitive heavy.
 \centering
 \includegraphics{./survey/survey_boxchart.jpg}
 \caption{Survey responses (box shows Q1-Q3 and median; whiskers show
-maximum and minimum)}\label{fig:survey}
+maximum and minimum)\label{fig:survey}}
 \end{figure}
 
 \subsection{Behavior of data modeling and data
@@ -110,7 +147,7 @@ width of the link.
 \includegraphics{./Log_analysis/action_sequence_vis/G107.png}
 \caption{Visualization of interaction logs of Team 107. Each row of
 colored marks indicates the sequence of top level activities a
-participant performed.}\label{fig:sequence}
+participant performed.\label{fig:sequence}}
 \end{figure}
 
 \begin{figure}
@@ -119,7 +156,7 @@ participant performed.}\label{fig:sequence}
 \caption{State transition diagram of interaction logs of Team 107. Each
 node is an activity, whose size represents the time spent on the it; a
 link represents a switch from one activity to another, whose width
-encodes the number of switches.}\label{fig:transition}
+encodes the number of switches.\label{fig:transition}}
 \end{figure}
 
 \begin{figure}
@@ -128,7 +165,7 @@ encodes the number of switches.}\label{fig:transition}
 \caption{User created network graphs. a) Exemplar network with filtering
 strategy; b) network with accretion strategy; c) network consisting of
 separate clusters; d) network consisting of connected
-clusters}\label{fig:network}
+clusters\label{fig:network}}
 \end{figure}
 
 To look at the consequence of intertwined data modeling and data
@@ -275,12 +312,16 @@ the essential problem of awareness of \emph{what}
 action awareness, history awareness, and intention awareness, as shown
 in Table \autocite{tab:awareness}.
 
+\begin{no-prefix-figure-caption}
+
 \begin{figure}
 \centering
 \includegraphics{./questionnaire/awareness.png}
 \caption{Awareness aspects reported by
 participants}\label{tab:awareness}
 \end{figure}
+
+\end{no-prefix-figure-caption}
 
 By analyzing the interaction, we also found indicators of high
 awareness. For example, we measured the number of entities accessed by
