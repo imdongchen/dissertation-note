@@ -3,7 +3,7 @@
 Many studies have been reported to investigate specific design features to
 support collaborative information analysis. For example, Goyal and Fussell
 [@Goyal2016] studied the effect of hypotheses sharing on sensemaking. Mahyar and
-Tory [@Mahyar2013] designed a visualization to connect collaborators' common
+Tory [@Mahyar2013b] designed a visualization to connect collaborators' common
 findings and evaluated its support for team performance. Hajizadeh et al.
 [@Hajizadeh2013] explored how sharing teammate's interactions affects awareness.
 These studies report interesting results of controlled lab studies to validate
