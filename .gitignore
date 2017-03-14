@@ -2,3 +2,13 @@
 *.log
 node_modules/
 .Ulysses-Group.plist
+
+.aux
+.bbl
+.bcf
+.blg
+.fdb_latexmk
+.fls
+.out
+.run.xml
+.synctex.gz

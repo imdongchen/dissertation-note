@@ -2,7 +2,7 @@
 
 ![CAnalytics user interface](./img/interface.png)
 
-We developed a collaborative information analysis tool, CAnalytics, to support teams of analysts in identifying, visualizing, integrating and assessing facts from multiple sources. The design is informed by our paper prototype studies, where we examined  communication patterns and team's spontaneously created artifacts when teams were engaged in a complex crime scenario. We also take suggestions from empirical studies conducted by Chin et al. [@Chin2009] and Kang and Stasko [@Kang2011] when making design decisions.  
+We developed a collaborative information analysis tool, CAnalytics, to support teams of analysts in identifying, visualizing, integrating and assessing facts from multiple sources. The design is informed by our paper prototype studies, where we examined  communication patterns and team's spontaneously created artifacts when teams were engaged in a complex crime scenario. We also take suggestions from empirical studies conducted by Chin et al. [@Chin2009] and Kang and Stasko [@Kang2011] when making design decisions.
 
 ## Annotation for data modeling
 CAnalytics supports evidence modeling through annotation. In the document view users can select and highlight snippets of information and annotate them as a type of entity such as a person, location, events, etc., or as a relationship between entities. Unlike in other entity-based systems such as [@Bier2010, @Stasko2008], in which natural language processing techniques are employed to extract and model entities automatically, we use annotation to allow analysts to manually create evidence objects of interest. Authors of the entity-based systems themselves admitted that natural language processing is not accurate enough to identify all entities correctly. But there are other problems with automatic data modeling. For example, NLP is weak at modeling relationships between entities, mostly limited to "cooccurrence" in the same document, usually too superficial to be useful in hypothesis development. And perhaps the most problematic is that fact the NLP treats all pieces of information equally with no awareness of the problem at hand. We posit that information analysis is a progressive process, wherein analysts place varying priority on evidence depending on how they frame the problem. Manual annotation allows for greater user control; users can decide their own information of interest and granularity that best suits their ad-hoc analytic needs.
@@ -12,7 +12,7 @@ Users can add attributes to the annotated object, e.g. add time attribute in eve
 In sum, users accomplish three things when creating an annotation: 1. highlight critical information in the document; 2. model data objects in preparation for later visualization and analysis; 3. connecting data object with source of document for evidence provenance. Annotations are synchronized in real time for collaborative evidence collection.
 
 
-Annotations are immediately shared with collaborators. 
+Annotations are immediately shared with collaborators.
 Our tool supports real-time collaborative editing, similar to the Google Tools. Users can open several concurrent editors to collaboratively edit multiple annotations and events. User created data objects are immediately shared within a team. As far as we know, this tool is the first to support multi-concurrent editing, which we think can improve fine grain coordination and awareness in complex collaborative work. The tool also includes a notepad, in which users can collaboratively compile a document, similar to Google Doc.
 
 CAnalytics supports information analysis by automatically organizing user created objects in multiple coordinated views, including table, timeline, map, and node-link graph---tools that are most frequently used in information analysis tasks \cite{Carroll2013}. Each visualization provides a way to schematize data: timeline organizes data by time, map by location, node-link graph by relationships, and table by attributes. Figure \ref{fig:canalytics} shows an example of the multiple visualizations in our tool: when an annotation is created in the document module, with information about time, location, participants, and their relationships, a new event is created in the timeline module, a new location is created in the map module, and new people are created in the node-link graph module with a typed edges representing relationships among the people (or new edges are added to existing nodes).
@@ -36,7 +36,11 @@ The system also includes a simple notepad implementation to support collaborativ
 
 
 
+## Implicit and explicit sharing
 
+For the sake of reducing coordination cost, sharing should made in an implicit fashion, not involving conscious attention, overt communication, or voluntary action, which may take cognitive resources away from the primary task that the team is performing. The notification system and tool coordinator is designed following an implicit sharing approach. For example, when users create an entity, a notification about this activity, including who is the author, what action is performed, and what is created, is automatically broadcast to the team. When the user is working on a tool or switches a tool, the tool coordinator implicitly captures that and shows the change in collaborator's view automatically. Such awareness information does not interrupt user's current work but displays important information for team coordination.
+
+On the other hand, an important aspect of collaboration is to purposefully display information that you believe teammates might be interested in. Explicit sharing enables one to intentionally attract teammate's attention. The hypothesis and message features are designed in the explicit sharing approach. 
 
 
 

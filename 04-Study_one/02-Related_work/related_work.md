@@ -20,13 +20,12 @@ intelligence projects. Carroll et al. [@Carroll2013] attempted to model a
 complex analytic task scenario in a lab setting, and examined the development of
 team awareness in a four-hour-long task. These studies helped improve
 understanding of current work practice with state-of-the-art tools or no tools
-at all. However, it remains unknown how teams would behave with technology that
-is explicitly designed for collaborative information analysis.
+at all. We built our tool based upon their study findings, and pursue to further explore design implications by investigating tool usage in a similar naturalist environment.
 
-Before the study with our tool, we took an informal observation in class.
-Students learned several analytic techniques, including IEW (a technique to
-extract and assess values of evidence), ACH (a technique to evaluate multiple
-hypotheses against evidence), timeline analysis and network analysis, as well as
+Our study took place during the 10th week of the course. Before that students
+learned several analytic techniques, including IEW (a technique to extract and
+assess values of evidence), ACH (a technique to evaluate multiple hypotheses
+against evidence), timeline analysis and network analysis, as well as
 state-of-the-art tools to facilitate these techniques. Two weeks before our
 study, students practiced applying these techniques in a hands-on project. A
 typical workflow started with IEW to extract and model data from documents.
@@ -35,7 +34,7 @@ in PARC ACH, a timeline and a network graph in Analyst's Notebook. They had to
 repeat the process for each different tool because the data cannot be shared and
 carried over directly. Most tools they used lacked serious collaboration support
 (except that some teams used Google Doc to construct an IEW table). Analysts
-were unable to contribute simultaneously (also known as production blocking).
+were unable to contribute simultaneously (known as production blocking [@Diehl1987a]).
 The analysis work was often divided by tools: each individual created and
 analyzed an artifact with a tool on their own. This had the consequence that
 findings and hypotheses be made without integrating collective efforts and

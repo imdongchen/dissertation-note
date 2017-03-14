@@ -23,7 +23,7 @@ trials would have provided an opportunity to observe how team awareness have
 developed and how teams have appropriated the tool to best solve the problem.
 
 Our classroom study attempts to gain deeper insights on collaborative
-information analysis behavior by simulating real world settings in at least two
+information analysis behavior by better simulating real world settings in two
 aspects:
 
 1. The study was one-week long. Teams were able to explore multiple strategies

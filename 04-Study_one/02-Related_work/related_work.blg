@@ -1,0 +1,17 @@
+[0] Config.pm:343> INFO - This is Biber 2.5
+[0] Config.pm:346> INFO - Logfile is 'related_work.blg'
+[67] biber-darwin:290> INFO - === Tue Mar 14, 2017, 17:45:02
+[94] Biber.pm:351> INFO - Reading 'related_work.bcf'
+[221] Biber.pm:776> INFO - Found 7 citekeys in bib section 0
+[239] Biber.pm:3493> INFO - Processing section 0
+[266] Biber.pm:3657> INFO - Looking for bibtex format file '../../Bibliography/Dissertation.bib' for section 0
+[278] bibtex.pm:1187> INFO - Decoding LaTeX character macros into UTF-8
+[289] bibtex.pm:1048> INFO - Found BibTeX data source '../../Bibliography/Dissertation.bib'
+[341] Utils.pm:149> WARN - BibTeX subsystem: /var/folders/gk/cn1fhnb13057cf3x1_vg5pnc0000gn/T/qTOgZoYhhG/Dissertation.bib_73948.utf8, line 6, warning: 176 characters of junk seen at toplevel
+[367] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'variable = shifted' with 'variable = non-ignorable'
+[367] UCollate.pm:66> INFO - Overriding locale 'en-US' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[367] Biber.pm:3306> INFO - Sorting list 'nty/global/' of type 'entry' with scheme 'nty' and locale 'en-US'
+[367] Biber.pm:3310> INFO - No sort tailoring available for locale 'en-US'
+[379] bbl.pm:526> INFO - Writing 'related_work.bbl' with encoding 'UTF-8'
+[381] bbl.pm:619> INFO - Output to related_work.bbl
+[382] Biber.pm:108> INFO - WARNINGS: 1

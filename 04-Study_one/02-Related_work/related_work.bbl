@@ -1,0 +1,276 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.7 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist[entry]{nty/global/}
+    \entry{Carroll2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=8447d423dda6421bf05d5a65829d3400}{%
+           family={Carroll},
+           family_i={C\bibinitperiod},
+           given={John\bibnamedelima M.},
+           given_i={J\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+        {{hash=738f54fb8eeab9bf75584c048ce234e5}{%
+           family={Borge},
+           family_i={B\bibinitperiod},
+           given={Marcela},
+           given_i={M\bibinitperiod}}}%
+        {{hash=63e919d001ab6d55e8cf1c133bda0ea1}{%
+           family={Shih},
+           family_i={S\bibinitperiod},
+           given={SI},
+           given_i={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{9f9d720d09a88711653d826543fa9b8c}
+      \strng{fullhash}{9f9d720d09a88711653d826543fa9b8c}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Visual Languages {\&} Computing}
+      \field{number}{4}
+      \field{title}{{Cognitive artifacts as a window on design}}
+      \field{volume}{24}
+      \field{year}{2013}
+      \field{pages}{248\bibrangedash 261}
+      \range{pages}{14}
+      \verb{file}
+      \verb :Users/dong/Documents/Mendeley/Carroll, Borge, Shih - 2013 - Cognitive artifacts as a window on design.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.sciencedirect.com/science/article/pii/S1045926X13000207
+      \endverb
+      \keyw{design of interactive systems,information analysis,information artifacts}
+    \endentry
+    \entry{Chin2009}{inproceedings}{}
+      \name{author}{3}{}{%
+        {{hash=9345dbeb3260ad27f48aa4647e9c6641}{%
+           family={{Chin Jr}},
+           family_i={C\bibinitperiod},
+           given={George},
+           given_i={G\bibinitperiod}}}%
+        {{hash=36cfdce846e37dc0698bcb5cbc4bf8d7}{%
+           family={Kuchar},
+           family_i={K\bibinitperiod},
+           given={Olga\bibnamedelima A.},
+           given_i={O\bibinitperiod\bibinitdelim A\bibinitperiod}}}%
+        {{hash=edb09acf3c1fb439f9572ffaeb784292}{%
+           family={Wolf},
+           family_i={W\bibinitperiod},
+           given={Katherine\bibnamedelima E.},
+           given_i={K\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \strng{namehash}{a20f4c571e3f9f259cb78ab8d549d9f7}
+      \strng{fullhash}{a20f4c571e3f9f259cb78ab8d549d9f7}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in Computing Systems}
+      \field{isbn}{9781605582467}
+      \field{title}{{Exploring the analytical processes of intelligence analysts}}
+      \field{year}{2009}
+      \field{pages}{11\bibrangedash 20}
+      \range{pages}{10}
+      \verb{file}
+      \verb :Users/dong/Documents/Mendeley/Chin Jr, Kuchar, Wolf - 2009 - Exploring the analytical processes of intelligence analysts.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://dl.acm.org/citation.cfm?id=1518704
+      \endverb
+    \endentry
+    \entry{Diehl1987a}{article}{}
+      \name{author}{2}{}{%
+        {{hash=ba58fa33d9005e75399bea11c6babe5e}{%
+           family={Diehl},
+           family_i={D\bibinitperiod},
+           given={Michael},
+           given_i={M\bibinitperiod}}}%
+        {{hash=dedfbb993c8ff33fdd34e6434c150288}{%
+           family={Strpebe},
+           family_i={S\bibinitperiod},
+           given={Wolfgang},
+           given_i={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{830a1f60f25bbf50f7ded1e3c3cc6dea}
+      \strng{fullhash}{830a1f60f25bbf50f7ded1e3c3cc6dea}
+      \field{sortinit}{D}
+      \field{sortinithash}{78f7c4753a2004675f316a80bdb31742}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of personality and social psychology}
+      \field{number}{3}
+      \field{title}{{Productivity Loss In Brainstorming Groups : Toward the Solution of a Riddle}}
+      \field{volume}{53}
+      \field{year}{1987}
+      \field{pages}{497\bibrangedash 509}
+      \range{pages}{13}
+      \verb{doi}
+      \verb 10.1037/0022-3514.53.3.497
+      \endverb
+      \verb{file}
+      \verb :Users/dong/Downloads/Productivity{\_}Loss{\_}In{\_}Brainstorming{\_}Groups{\_}Toward{\_}t.pdf:pdf
+      \endverb
+    \endentry
+    \entry{Goyal2016}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=a4d7dea8b684e51d84d8cc2a73d7f44a}{%
+           family={Goyal},
+           family_i={G\bibinitperiod},
+           given={Nitesh},
+           given_i={N\bibinitperiod}}}%
+        {{hash=5aeeedaef3d6741154ed9c367f0a1f88}{%
+           family={Fussell},
+           family_i={F\bibinitperiod},
+           given={Susan\bibnamedelima R},
+           given_i={S\bibinitperiod\bibinitdelim R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b1818627192850350026dd504d87087f}
+      \strng{fullhash}{b1818627192850350026dd504d87087f}
+      \field{sortinit}{G}
+      \field{sortinithash}{1c854ef9177a91bf894e66485bdbd3ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{CSCW '16 Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work {\&} Social Computing}
+      \field{title}{{Effects of Sensemaking Translucence on Distributed Collaborative Analysis}}
+      \field{year}{2016}
+      \verb{file}
+      \verb :Users/dong/Documents/Mendeley/Goyal, Fussell - 2016 - Effects of Sensemaking Translucence on Distributed Collaborative Analysis.pdf:pdf
+      \endverb
+      \keyw{explanatory,measure}
+    \endentry
+    \entry{Hajizadeh2013}{article}{}
+      \name{author}{3}{}{%
+        {{hash=462948606c5fc057828bc968bb4c73b3}{%
+           family={Hajizadeh},
+           family_i={H\bibinitperiod},
+           given={Amir\bibnamedelima Hossein},
+           given_i={A\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+        {{hash=795a99893c2a080a084deb26e429696e}{%
+           family={Tory},
+           family_i={T\bibinitperiod},
+           given={Melanie},
+           given_i={M\bibinitperiod}}}%
+        {{hash=5cd50231732f67f08243051c2f5e83eb}{%
+           family={Leung},
+           family_i={L\bibinitperiod},
+           given={Rock},
+           given_i={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{b4ce4a533989c0585b45f56ebb9af680}
+      \strng{fullhash}{b4ce4a533989c0585b45f56ebb9af680}
+      \field{sortinit}{H}
+      \field{sortinithash}{82012198d5dfa657b8c4a168793268a6}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Maintaining an awareness of collaborators' actions is critical during collaborative work, including during collaborative visualization activities. Particularly when collaborators are located at a distance, it is important to know what everyone is working on in order to avoid duplication of effort, share relevant results in a timely manner and build upon each other's results. Can a person's brushing actions provide an indication of their queries and interests in a data set? Can these actions be revealed to a collaborator without substantially disrupting their own independent work? We designed a study to answer these questions in the context of distributed collaborative visualization of tabular data. Participants in our study worked independently to answer questions about a tabular data set, while simultaneously viewing brushing actions of a fictitious collaborator, shown directly within a shared workspace. We compared three methods of presenting the collaborator's actions: brushing {\&} linking (i.e. highlighting exactly what the collaborator would see), selection (i.e. showing only a selected item), and persistent selection (i.e. showing only selected items but having them persist for some time). Our results demonstrated that persistent selection enabled some awareness of the collaborator's activities while causing minimal interference with independent work. Other techniques were less effective at providing awareness, and brushing {\&} linking caused substantial interference. These findings suggest promise for the idea of exploiting natural brushing actions to provide awareness in collaborative work.}
+      \field{issn}{1941-0506}
+      \field{journaltitle}{IEEE transactions on visualization and computer graphics}
+      \field{month}{12}
+      \field{number}{12}
+      \field{title}{{Supporting awareness through collaborative brushing and linking of tabular data.}}
+      \field{volume}{19}
+      \field{year}{2013}
+      \field{pages}{2189\bibrangedash 97}
+      \range{pages}{9}
+      \verb{doi}
+      \verb 10.1109/TVCG.2013.197
+      \endverb
+      \verb{file}
+      \verb :Users/dong/Documents/Mendeley/Hajizadeh, Tory, Leung - 2013 - Supporting awareness through collaborative brushing and linking of tabular data.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://www.ncbi.nlm.nih.gov/pubmed/24051785
+      \endverb
+      \keyw{Awareness,Awareness: physiology,Communication,Computer Graphics,Cooperative Behavior,Data Mining,Data Mining: methods,Databases,Factual,Humans,Male,Psychomotor Performance,Psychomotor Performance: physiology,User-Computer Interface,Young Adult,explanatory}
+    \endentry
+    \entry{Kang2011}{inproceedings}{}
+      \name{author}{2}{}{%
+        {{hash=aba2c9cf05bcbf7871d1746bbb2ad6f5}{%
+           family={Kang},
+           family_i={K\bibinitperiod},
+           given={Youn-ah},
+           given_i={Y\bibinithyphendelim a\bibinitperiod}}}%
+        {{hash=fafd31a5032b31a42bb33c9f1bc02ed7}{%
+           family={Stasko},
+           family_i={S\bibinitperiod},
+           given={John},
+           given_i={J\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Ieee}%
+      }
+      \strng{namehash}{6e6c984e72bafd27f13ddc82024c7398}
+      \strng{fullhash}{6e6c984e72bafd27f13ddc82024c7398}
+      \field{sortinit}{K}
+      \field{sortinithash}{a7d5b3aec5a0890aae7baf85a209abfc}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{2011 IEEE Conference on Visual Analytics Science and Technology (VAST)}
+      \field{isbn}{978-1-4673-0014-8}
+      \field{month}{10}
+      \field{title}{{Characterizing the intelligence analysis process: Informing visual analytics design through a longitudinal field study}}
+      \field{year}{2011}
+      \field{pages}{21\bibrangedash 30}
+      \range{pages}{10}
+      \verb{doi}
+      \verb 10.1109/VAST.2011.6102438
+      \endverb
+      \verb{file}
+      \verb :Users/dong/Documents/Mendeley/Kang, Stasko - 2011 - Characterizing the intelligence analysis process Informing visual analytics design through a longitudinal field st.pdf:pdf
+      \endverb
+      \verb{url}
+      \verb http://ieeexplore.ieee.org/lpdocs/epic03/wrapper.htm?arnumber=6102438
+      \endverb
+    \endentry
+    \entry{Mahyar2013b}{article}{}
+      \name{author}{2}{}{%
+        {{hash=6c4e1614866e3a1d94f73fb98032241a}{%
+           family={Mahyar},
+           family_i={M\bibinitperiod},
+           given={Narges},
+           given_i={N\bibinitperiod}}}%
+        {{hash=795a99893c2a080a084deb26e429696e}{%
+           family={Tory},
+           family_i={T\bibinitperiod},
+           given={Melanie},
+           given_i={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{299a7ad2c4975198258fcc3cab919b46}
+      \strng{fullhash}{299a7ad2c4975198258fcc3cab919b46}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Visualization and Computer Graphics, IEEE Transactions on}
+      \field{number}{12}
+      \field{title}{{Supporting Communication and Coordination in Collaborative Sensemaking}}
+      \field{volume}{20}
+      \field{year}{2013}
+      \field{pages}{1633\bibrangedash 1642}
+      \range{pages}{10}
+      \verb{file}
+      \verb :Users/dong/Documents/Mendeley/Mahyar, Tory - 2013 - Supporting Communication and Coordination in Collaborative Sensemaking.pdf:pdf
+      \endverb
+      \keyw{explanatory,system}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
