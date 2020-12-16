@@ -1,0 +1,29 @@
+\addvspace {10pt}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Pirolli and Card's Think Loop Model)}}{9}{figure.2.1}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Wheaton's multiphasic model of information analysis process)}}{10}{figure.2.2}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Participant reported intelligence analysis workflow}}{30}{figure.3.1}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces CAnalytics user interface }}{37}{figure.3.2}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Annotation in document view }}{39}{figure.3.3}
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Utility for location annotation }}{40}{figure.3.4}
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Hypothesis development with linked views }}{44}{figure.3.5}
+\contentsline {figure}{\numberline {3.6}{\ignorespaces State management in a dynamic system.}}{46}{figure.3.6}
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Diagrams showing two state management approaches. a) Event-driven approach: each interface component manages its own state and updates itself driven by events. b) Our approach: a central state manager takes care of all events and notifies interface components whenever there is a need to update.}}{47}{figure.3.7}
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Event flow in a collaborative system.}}{49}{figure.3.8}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Classroom setting}}{54}{figure.4.1}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Survey responses (box shows Q1-Q3 and median; ends of whiskers show maximum and minimum)}}{57}{figure.4.2}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Network artifact comparison: filtering (a) vs.\nobreakspace {}accretion (b) }}{58}{figure.4.3}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Pie charts showing different labor division strategies. Each pie chart corresponds to annotations created by one team member. (a) Document-based collaboration. Each pie chart shows the documents a team member annotated, color coded by document ID. It is clear from the graph that the three team members work on different documents. (b) Entity-based collaboration. Each pie chart shows the entity types a team member created, color coded by entity types. It is clear that the three team members create different entity types across documents. }}{59}{figure.4.4}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Graph showing the timeline of one team creating annotations. Each row corresponds to one team member. Each bar represents an annotation, color coded by document ID. The red blocks highlights the periods when teammates worked on the same documents simultaneously.}}{61}{figure.4.5}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Network artifact comparison: separate clusters (a) vs.\nobreakspace {}connected clusters (b). The parts highlighted in red squares in (b) are key evidence that connects clusters}}{62}{figure.4.6}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Three different representations of uncertainty for entity relationships}}{64}{figure.4.7}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces (a) Visualization of interaction logs of Team 107. Each row of colored marks indicates the sequence of top-level activities a participant performed. (b) State transition diagram of interaction logs of Team 107. Each node is an activity, whose size represents the time spent on it (M: data modeling; A: data analysis; H: hypothesis development; C: coordination); a link represents a switch from one activity to another, whose width encodes the number of switches. We see highly frequent transitions between data modeling and data analysis }}{66}{figure.4.8}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces The relationship between collaboration characteristics and team performance.}}{72}{figure.4.9}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {5.1}{\ignorespaces The improved timeline in CAnalytics V2 displays events schematized by people. Selection on the left overview panel zooms the view into a specific range of time. Selection on the right detailed view selects events that overlap with a time range and applies a filter to other views (e.g. map, table and network) to narrow down data relevant to the selected events. This tool helps find alibi of suspects and identify correlation of events/time with other pieces of information. }}{85}{figure.5.1}
+\contentsline {figure}{\numberline {5.2}{\ignorespaces The second classroom study setting}}{88}{figure.5.2}
+\addvspace {10pt}
+\contentsline {figure}{\numberline {6.1}{\ignorespaces Task-artifact co-evolution structured with design methodology from \cite {Carroll1992a} }}{101}{figure.6.1}
+\contentsline {figure}{\numberline {6.2}{\ignorespaces Structured techniques, collaboration, and tooling}}{108}{figure.6.2}

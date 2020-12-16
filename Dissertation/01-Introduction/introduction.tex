@@ -1,0 +1,39 @@
+\section{Introduction}\label{introduction}
+
+\subsection{Motivation}
+
+Collaborative information analysis is a form of sensemaking wherein a team analyzes a complex information space of facts and relationships to identify and evaluate causal hypotheses. It is conducted in various domains and its effectiveness is critical to the decision and conclusion out of it. A common example is crime investigation; a variety of putative facts are assembled, including financial records, witness observations and interviews, and social connections of various sorts among persons of interest, from which investigators collaboratively assess means, motives, and opportunities, articulate and investigate further hypotheses and deductions, and develop one or more theories of the crime. One of the challenges is the volume of information and the level of sophistication of relationships among the information, which could easily go beyond the capacity of individual human cognition. 
+
+Collaboration is critical in such complex tasks. Effectiveness of collaboration determines team performance, and thus the justice of decisions made or solutions proposed. Researchers have repeatedly found evidence of low performance of distributed groups compared to face-to-face groups. They have attributed the performance issues to extra efforts required to maintain \textit{awareness} for distributed groups. To collaborate effectively, people need to know a lot about their collaborators: where they are, what they are looking at, what they are working on, what they recently did, what they are planning to do, what they know, what skills they have, who they know that might know something, and so forth. All such information is referred to \textit{awareness} \citep{Heath2002d, Gutwin1998f}. None of them, however, is intuitively available.
+
+ Indeed, many deficits exist that could result in disruptions in the flow of communication within distributed groups: field of view diminished, facial expressions are limited, the possibility to use gestures is reduced, sharing of tools and artifacts is constrained, and exchanged information could be delayed. Further, in the case of miscommunication, it is difficult to repair, or even discover the resulted misunderstanding. Even worse, the challenges become more salient as the range and complexity of the task expand. 
+ 
+Collaborative information analysis tools, also known as Information analytical groupware \citep{Grudin1994e}, are designed to facilitate analytic collaboration and collaborative sensemaking.
+Numerous tools have been developed in the research community. However, these works often focus on amplifying individual cognitive abilities (e.g. \cite{Stasko2008, Bier2008}), or collaboration with relatively simple tasks (for example, trip planning). Most of them lack complex serious empirical evaluation studies \citep{Goyal2016,Convertino2011}, or do not include a full-featured supporting tool \citep{Carroll2013,Borge2012}. The state-of-the-art analytic tools that are currently widely used, such as IBM Analyst's Notebook \citep{IBM}, and PARC ACH \citep{PARC}, are designed for individual use only. The design space of groupware for complex collaborative information tasks remains largely unexplored.
+
+
+\subsection{Problem}
+
+This dissertation describes and discusses \textit{a design research of developing and evaluating groupware for supporting collaborative information analysis}. 
+
+A critical challenge for information analysts is building a structured preliminary data model and ensuring that the data model is employed effectively in hypothesis development and evaluation. This is an open challenge. Standard structured techniques often do not support it at all; for example, Analysis of Competing Hypotheses (ACH) assumes that data has been modeled, and that relevant evidence can be adduced appropriately to various hypotheses, but provides no structured support for either. My work aims to build an integrated environment which bootstraps a structured approach and analysts can build data model and develop hypotheses in one place. 
+
+Another challenge is to develop and maintain team awareness while engaging in a cognitively demanding task. The concept of awareness has been a major focus in the field of Computer-Supported Collaborative Work (CSCW). Research has investigated many aspects of awareness, its role, and measurement, but its interaction with information analysis, more specifically, usage of structured techniques is less examined. Support for structured techniques are often designed for individuals, but its employment in collaboration is less researched. This study focuses on awareness support in applying structured techniques.
+
+Finally, the study aims to understand computer-supported collaborative work in a close-to-reality environment. Many studies look into the usage of low-fidelity tools and usage in a controlled lab experiment over a short period. It remains unclear whether insights gained from
+those low-fidelity tools can be applied to more advanced interactive tools. This is especially true for collaborative tools, because tools and teams often develop into a new system over time, and can behave quite differently as the system develops more awareness \citep{Stahl2006}. While new tools bring about new affordances, they inevitably introduce extra constraints. The new affordances and constraints of the tool shape the way users approach a task, and even completely transform the
+task itself \citep{Carroll1989}. This study examines the process when analysts employ high-fidelity groupware and observe their behavior in a natural environment, particularly, in a classroom setting.
+
+\subsection{Research methods}
+
+To address the problem, I started with a cognitive analysis of collaborative information analysis by observing team behaviors in an intelligence analysis course at Pennsylvania State University. Based on the design requirements, I developed a fully functional tool, CAnalytics, which supports collaborative information modeling and analysis. The tool is then evaluated in two intelligence analysis classroom studies. Each study is analyzed with qualitative and quantitative research methods. Results and design implications are reported at the end of each  study.
+
+\subsection{Dissertation structure}
+
+Chapter 2 models the task of information analysis, and explores popular structured techniques. It then turns to a review of research on awareness in collaboration. The chapter ends with a survey of available tools for supporting collaborative information analysis. 
+
+Chapter 3 introduces CAnalytics, a collaborative visualization tool I designed and developed for information analysis. I performed a task analysis into an account for the design rationale behind CAnalytics. The chapter highlights major features of the system and critical implementation details. 
+
+Chapters 4 and 5 present two classroom studies that investigate the design and evaluation of CAnalytics. Study One focuses on evaluating the design of an integrated collaborative workspace and the way the structured technique is performed. Study Two examines collaborative hypothesis development. Each study yields design implications for the field.
+
+Finally, Chapter 6 reflects on the research method and lessons learned from the result. 

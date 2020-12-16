@@ -1,0 +1,173 @@
+\section{Discussion}\label{discussion}
+
+The goal of the study is to understand and support an interleaved, collaborative workflow in information analysis by evaluating tool usage in a natural
+environment over multiple usage sessions. Our work responds to calls for an
+integrated environment in the intelligence community as well as other data
+intensive domains \citep{Shah2014i, Chen2016, Vision2015, Amershi2015, Ware2012}.
+The system builds upon prior empirical studies (e.g. \cite{Carroll2013,
+	Borge2012,Kang2011,Chin2009}) and embodies their design implications in our
+tool. The study also complements research that only tests tools in short term
+lab studies (e.g. \cite{Convertino2011,Goyal2016,Hajizadeh2013}) by
+investigating tool usage over multiple usage sessions.
+
+This study adopts an \emph{analyst-centered design} approach. A critical
+requirement of developing tools that meet user needs is to understand their
+needs and practices. When these needs and practices are specialized (as is the
+case in intelligence analysis), it is particularly important to include the
+target user population in the design process \citep{Scholtz2014}. Our classroom
+study provided an opportunity with deep access to analysts in training. These
+analysts have been trained with knowledge and skills of intelligence analysis,
+and have experience with state-of-the-art analytic tools such as Analyst's
+Notebook and PARC ACH. In their reflections, participants often compared
+CAnalytics to those tools. Their multi-session usage of CAnalytics also allows
+them to adapt to the tool and learn to appropriate it to the best of their team
+purpose \citep{Stahl2006}. Therefore, while their feedback is admittedly not the
+same as an experienced professional, their feedback does provide a deeper
+insight into strengths and weaknesses of the tool.
+
+The study provides encouraging results. Participants appreciated an integrated
+environment where they could share raw documents, evidence snippets, views of
+evidence and hypotheses in one place. They liked the fact that they could
+contribute simultaneously without blocking or interfering each other. Another
+llaborative tool is to keep teammates aware of each other's
+activities. Staying aware of teammates not only helps establish a common ground
+for planning team strategy, but also ensure everyone is following the plan as
+expected. Moreover, results suggest the awareness features provide positive
+\emph{social facilitation} \citep{Zajonc1965}: individuals found the task
+motivating and engaging with awareness of each other's activity. We also
+measured collaboration characteristics that impacted team performance, and found
+that balanced contribution, peer editing, and earlier switching from modeling to
+analysis predicted higher team performance. Most importantly, we documented the
+interleaved workflow enabled by the integrated environment, and explored
+momentum in modeling and analysis behaviors that drove the activity switching.
+Below we discuss design implications that could potentially enable a better
+collaborative experience in information analysis tasks.
+
+\subsection{Scaffold a structured interleaved workflow}
+
+An often misconception about information analysis is that data modeling and
+data analysis are two staged activities. This is akin to the \emph{waterfall}
+software development model, which features a sequential process that
+flows downwards through the phases of requirement conception, software
+design and implementation, and testing and maintenance. Critics have
+argued against this approach and instead called for an iterative design
+process that leads to reframe user requirements,
+redesign, redevelopment, and retesting.
+
+Our result demonstrates a similar iterative and dynamic process in information
+analysis. The result is striking especially because our participants have been
+trained with tools that impose a waterfall model. They could have followed their
+old waterfall practice with our tool, yet instead all teams spontaneously
+switched to an iterative manner. We projected that modeling on multiple granularities drives analysis on different levels, and uncertainty in analysis pushes analysts back to collecting additional data.
+
+Realizing that, we probably could shape analysis into a more interleaved
+workflow with a more structured approach. Annotation is a process in which analysts are constructing their own version of information space on the basis of information provided by the document. The resulted representation of annotation will strongly influence their analysis. Meanwhile, analysis generates hypotheses which will frame how analysts perceive their data. The gap between hypotheses and facts then drives analysts to annotate a new version of information space. Structured techniques such as IEW and ACH help users
+perform analysis in a systematic and transparent manner in each well defined activity, yet fall short in guiding analysts in switching between the two activities
+\citep{Kang2011}. Our system implies a structured modeling through annotation and
+a structured analysis by visualizing data in multiple views. By sharing the same
+data structure and consistent user interface, we enable a smooth switching
+between the two stages. Our result implies the role of multilevel modeling and
+analysis uncertainty in driving the switch. Based on that, there exist design
+opportunities to enable a more interleaved flow. For example, we can build a more structured scaffolding process to bridge modeling and analysis. When user adds a
+new data object, the system could suggest possible connections to existing
+evidence in the context of an appropriate level of views, which is likely to
+help analysts discover new patterns. When a user creates a new hypothesis with
+uncertainty, the system could highlight associated evidence, which would prompt
+the analyst to re-examine the data and look for more data. Such scaffolding
+provides a basic structure to link stages of analytic activities that analysts
+can take on without imposing a specific fixed workflow.
+
+A smoothier interleaved workflow could also be made by increasing team
+awareness of partner's modeling and analysis. That is, uncertainty in one's
+analysis not only motivates oneself to data modeling, but also drives partners
+(who is aware of the what and why of the uncertainty) to collect more data.
+Similarly, one's modeling could influence and drive partner's analysis, given
+the partner is fully aware of what is modeled and how the new data connects to
+the level of existing data. Such ``team-level'' interleaving could make teamwork
+more interactive and close coupling, but also requires support of higher
+awareness, especially of hypothesis uncertainty and data model context. Improved
+design for multi-granularity modeling, uncertainty representation, as well as
+team awareness of these features opens up possibilities for coordinating
+interleaving at the team level. We discuss these design implications in further
+detail in the following paragraphs.
+
+We noticed iterative data annotating activities, which indicates the need for analyst in control of data modeling process.
+Depending on the questions and hypotheses in analyst's mind, an analyst may want to model different types of evidence. Therefore the analyst should always be in control of evidence modeling, while the computational method only \emph{facilitates} data modeling, e.g. ease data input, hide complexity of format structuring. 
+
+
+
+\subsection{Represent uncertainty in collaborative analysis }
+
+Our finding suggests that uncertainty in collaborative analysis requires deeper understanding and brings more design challenges and opportunities than in traditional data visualization. Uncertainty is prevalent in data. For example, evidence is uncertain depending on its source (witness reports vs. police report) and collection means (video vs. narrative). Most research efforts focus on representing uncertainty from data itself \citep{Pang1997,Zuk2008}, but teammates become a source of uncertainty as well in case of collaborative data analysis.  Collaborators share annotations and hypotheses based on the data and knowledge of their own, and such shared information is derived with uncertainty. 
+Yet it is often easier (and people are more inclined) to represent information of certain, but those of uncertain tends to be lost or vague. These propose new research questions: how to allow and encourage analysts to represent uncertainty? How to represent collaborator-generated uncertainty together with data-bearing uncertainty? Shall we distinguish them or treat them equally? 
+
+Further, there may exist nuance in understanding of uncertainty among teammates. Collaborators make their own evaluation of uncertainty, based upon their unique knowledge, experience, role, as well as trust in the source teammate \citep{Chin2009}. Thus it is important that teammates are aware of existence of uncertainty, and reach a team-level agreement of the information gap. \cite{Graves2000} characterized intelligence analysis as a progression where the analyst's certainty grows over time. And we can probably describe collaborative information analysis as a progression where a team of analysts establish awareness of certainty, and achieve a growing team agreement of certainty. 
+
+While uncertainty poses a big challenge to analysts, we also perceive it as a design opportunity for a new round of team collaboration. Uncertainty emerges and that means a new need for teams to communicate and establish awareness. We should represent uncertainty in a way that is more discoverable and, and more referrable in their communication. Teams in our study spontaneously employed two different approaches: 
+to represent uncertainty on top of data,  and to separate uncertainty from data. In fact the research community does not have an agreement whether it is better if uncertainty is visualized or suppressed, or under what conditions it is better \citep{Maceachren2005}. We should probably provide users with control in deciding how to display uncertainty. For example, users can \emph{filter} by uncertainty so that they can
+choose to consider only evidence of certainty, or to review all
+inferences and decide what extra data is needed to consolidate them. We should design a richer graphic language to encode uncertainty into the analytic view \citep{Bertin1983}. Teams need a channel to refer to, discuss, and consolidate uncertainty.
+
+\subsection{Build collapsible views for multi-level modeling}
+
+We observed that analysts built data models in multiple granularities and coordinated among multiple levels of details. For example, analysts jumped from digging into details of a single event, to comparing between two
+events, and to overviewing all robberies as a complete story. When sharing these data, a critical requirement is to represent them in an appropriate context in order to ensure teammates understand them correctly. A collapsible data view could be a solution to accommodate such
+multi-level modeling. This can help draw teammate's attention to a specific item
+while keeping the global context available. Analysts can focus on a certain
+level of detail at a time while conveniently switching between levels. A
+collapsible view also reduces the problem of cluttered view when data volume
+increases.  and when analysts dig into greater
+details (e.g.~representing suspect's all actions to identify patterns of common
+actions in two robberies). An analyst can overview all robberies and only unfold
+detailed actions when investigating into a specific robbery.
+
+\subsection{Share views as team resource}
+
+View sharing provides an anchor for team communication and is important for sharing and understanding analytic result
+\citep{Morton2014a} and. A common approach to view sharing is to enable a public view which always
+keeps synchronized for all teammates \citep{Convertino2011,Greenberg1990}.
+However, a single public view does not meet the need in dynamic information analysis.
+Analysts often share multiple views in an iterative workflow. Most views are for evidence keeping, and some views are more important that may be repeatedly used in a report. Other views may be reused by teammates and further developed.
+
+We propose that views should be treated as a \emph{team resource}. Just
+like data, views can be sharable, extensible, and reusable. For example, an analyst
+can save their current view as a shared resource when they feel it useful to
+collaborators. Other people can reuse the view to their need. To facilitate the reuse of views, \cite{Nobarany2012} designed a recommendation system to help discover possible useful views from teammates. Shared views
+should be interactive rather than static images, so that analysts can perform
+all interactions including filtering and highlighting, and are able to evolve
+the view with collective team efforts, a critical requirement emphasized in
+\cite{Carroll2013}.
+
+A public workspace to
+which partners can refer sets up a common ground for discussion. Synchronous
+groupware used to impose “what you see is what I see” (WYSIWIS) (e.g. \cite{stefik1987wysiwis}),  in which all team members share the same view. However, this design
+blocks production as only one member is able to control the workspace in one
+turn. Relaxed-WYSIWIS is thus proposed in contrast to the previous
+strict-WYSIWIS, allowing people to navigate the workspace independently \citep{Gutwin1998h}. 
+Indeed, in observation of empirical teamwork, participants
+were found to keep private notes while contributing to shared note-taking \citep{Borge2012}.
+
+\subsection{Distinguish visible vs. valuable contributions}
+
+Finally, we noted cases where teams created far more entities than needed with an
+accretion strategy. Strikingly, while similar data modeling strategy was
+reported in the paper prototype study \citep{Carroll2013}, users with CAnalytics
+seemed far more tempted to accretively add information, with far more entities
+and cluttered views. For example, the extreme team created as many as three
+times entities than the rest teams in our study, much more than the difference
+in the paper prototype study. Why did this happen? We guess both the context of
+classroom study and the system design contributed. Unlike in the lab study where
+teams are temporarily assembled, teams in a class evaluate peers either
+consciously or unconsciously and value how themselves are being evaluated. Such
+social pressure motivate individuals to make contributions, and indeed to make
+\emph{visible} contributions, more than \emph{valuable} contributions. That is,
+participants noticed that their work activity was visible to their partners, and
+accordingly prioritized doing more visible work over doing less visible work. In
+some cases, this led to a new problem of easy and less valuable contributions
+that were highly visible - such as creating and therefore sharing data entities
+that were not particularly important, and subsequently made data models seem
+cluttered. For example, creating and therefore sharing an entity gets
+immediately notified to the team whereas weighing the importance and relevance
+of an entity goes silent in the system. We need to investigate approaches to
+making significant contributions more visible, or perhaps making it more
+immediately visible that less important contributions are indeed less important.

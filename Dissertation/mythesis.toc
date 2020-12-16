@@ -1,0 +1,74 @@
+\contentsline {chapter}{List of Tables}{x}{chapter*.2}
+\contentsline {chapter}{List of Figures}{xi}{chapter*.3}
+\contentsline {chapter}{Acknowledgments}{xiv}{chapter*.5}
+\contentsline {chapter}{\numberline {Chapter 1.}Introduction}{1}{chapter.1}
+\contentsline {section}{\numberline {1.1}Introduction}{1}{section.1.1}
+\contentsline {subsection}{\numberline {1.1.1}Motivation}{1}{subsection.1.1.1}
+\contentsline {subsection}{\numberline {1.1.2}Problem}{3}{subsection.1.1.2}
+\contentsline {subsection}{\numberline {1.1.3}Research methods}{4}{subsection.1.1.3}
+\contentsline {subsection}{\numberline {1.1.4}Dissertation structure}{4}{subsection.1.1.4}
+\contentsline {chapter}{\numberline {Chapter 2.}Literature Review}{6}{chapter.2}
+\contentsline {section}{\numberline {2.1}Task of Collaborative Information Analysis}{6}{section.2.1}
+\contentsline {subsection}{\numberline {2.1.1}Modeling the task of information analysis}{7}{subsection.2.1.1}
+\contentsline {subsection}{\numberline {2.1.2}Structured techniques}{12}{subsection.2.1.2}
+\contentsline {paragraph}{Analysis of competing hypotheses}{13}{section*.6}
+\contentsline {paragraph}{Link analysis}{16}{section*.7}
+\contentsline {paragraph}{Evidence marshaling}{17}{section*.8}
+\contentsline {section}{\numberline {2.2}Collaboration and Awareness}{18}{section.2.2}
+\contentsline {section}{\numberline {2.3}Technology to Support Collaborative Information Analysis}{22}{section.2.3}
+\contentsline {chapter}{\numberline {Chapter 3.}CAnalytics: Tool Supporting \\ Collaborative Information Analysis}{28}{chapter.3}
+\contentsline {section}{\numberline {3.1}Task Analysis}{28}{section.3.1}
+\contentsline {subsection}{\numberline {3.1.1}Major activities: data annotation, data analysis, and hypothesis development}{29}{subsection.3.1.1}
+\contentsline {subsection}{\numberline {3.1.2}Collaboration}{32}{subsection.3.1.2}
+\contentsline {section}{\numberline {3.2}Design Objectives}{34}{section.3.2}
+\contentsline {subsection}{\numberline {3.2.1}Objective 1. Provide an integrated, dynamic analytic workspace}{34}{subsection.3.2.1}
+\contentsline {subsection}{\numberline {3.2.2}Objective 2. Support structured data annotating and visualization techniques}{34}{subsection.3.2.2}
+\contentsline {subsection}{\numberline {3.2.3}Objective 3. Support information sharing and team awareness}{35}{subsection.3.2.3}
+\contentsline {subsection}{\numberline {3.2.4}Objective 4. Enabling collaborative hypotheses development}{36}{subsection.3.2.4}
+\contentsline {subsection}{\numberline {3.2.5}Objective 5. Capture team behavior}{36}{subsection.3.2.5}
+\contentsline {section}{\numberline {3.3}CAnalytics Features}{37}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}An integrated workspace: annotation, visualization, and hypothesis}{38}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}Multiple coordinated views of annotated evidence}{40}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}Information sharing and team awareness}{41}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}User activity log}{43}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}Collaborative hypothesis development}{44}{subsection.3.3.5}
+\contentsline {section}{\numberline {3.4}Implementation}{45}{section.3.4}
+\contentsline {subsection}{\numberline {3.4.1}Managing team analytic states}{45}{subsection.3.4.1}
+\contentsline {subsection}{\numberline {3.4.2}Conflict resolution}{50}{subsection.3.4.2}
+\contentsline {subsection}{\numberline {3.4.3}View restoration and sharing}{50}{subsection.3.4.3}
+\contentsline {chapter}{\numberline {Chapter 4.}The First Classroom Study}{52}{chapter.4}
+\contentsline {section}{\numberline {4.1}Problem Statement}{52}{section.4.1}
+\contentsline {section}{\numberline {4.2}Setting and Method}{52}{section.4.2}
+\contentsline {section}{\numberline {4.3}System}{56}{section.4.3}
+\contentsline {section}{\numberline {4.4}Results}{56}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}Filtering vs. Accretion}{57}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}Situational logic vs. Comparison}{59}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}Inferential connection vs. Factual discrete}{62}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}Interleaving data annotation and analysis}{65}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}Collaboration and awareness}{66}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}Interaction with team performance}{70}{subsection.4.4.6}
+\contentsline {section}{\numberline {4.5}Discussion}{72}{section.4.5}
+\contentsline {subsection}{\numberline {4.5.1}Scaffold a structured interleaved workflow}{74}{subsection.4.5.1}
+\contentsline {subsection}{\numberline {4.5.2}Represent uncertainty in collaborative analysis }{76}{subsection.4.5.2}
+\contentsline {subsection}{\numberline {4.5.3}Build collapsible views for multi-level modeling}{78}{subsection.4.5.3}
+\contentsline {subsection}{\numberline {4.5.4}Share views as team resource}{79}{subsection.4.5.4}
+\contentsline {subsection}{\numberline {4.5.5}Distinguish visible vs. valuable contributions}{80}{subsection.4.5.5}
+\contentsline {chapter}{\numberline {Chapter 5.}The second Classroom Study}{82}{chapter.5}
+\contentsline {section}{\numberline {5.1}Problem Statement}{82}{section.5.1}
+\contentsline {section}{\numberline {5.2}CAnalytics v2: supporting collaborative hypothesis development}{84}{section.5.2}
+\contentsline {paragraph}{Timeline schematization}{84}{section*.9}
+\contentsline {paragraph}{Capability to restore deleted data}{85}{section*.10}
+\contentsline {paragraph}{Animated change}{86}{section*.11}
+\contentsline {section}{\numberline {5.3}Use case demonstration}{86}{section.5.3}
+\contentsline {section}{\numberline {5.4}Classroom study setting}{88}{section.5.4}
+\contentsline {section}{\numberline {5.5}Result}{90}{section.5.5}
+\contentsline {subsection}{\numberline {5.5.1}Confirming result from study one}{90}{subsection.5.5.1}
+\contentsline {subsection}{\numberline {5.5.2}Feedback on hypothesis development tool}{92}{subsection.5.5.2}
+\contentsline {section}{\numberline {5.6}Discussion}{95}{section.5.6}
+\contentsline {chapter}{\numberline {Chapter 6.}Discussion and Conclusion}{99}{chapter.6}
+\contentsline {section}{\numberline {6.1}Design research}{99}{section.6.1}
+\contentsline {section}{\numberline {6.2}Classroom study}{101}{section.6.2}
+\contentsline {section}{\numberline {6.3}Analyst in control}{103}{section.6.3}
+\contentsline {section}{\numberline {6.4}Collaboration, structured technique, and the role of computing tools}{106}{section.6.4}
+\contentsline {section}{\numberline {6.5}Education in collaborative information analysis}{108}{section.6.5}
+\contentsline {chapter}{Bibliography}{111}{section.6.5}
